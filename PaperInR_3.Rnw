@@ -45,8 +45,9 @@ Sections may use a label\footnote{In fact, you can have a label wherever you thi
 % code chunk changes
 <<collecting, echo=FALSE>>=
 # collecting
-fileLink="https://github.com/eScienceWinterSchool/Reproducibility/raw/master/censoredworld.csv"
-dataidx=read.csv(fileLink)
+fileLink="https://github.com/eScienceUW-WinterSchool-2020/ReproducibilitySession/raw/master/data/dataidx.RDS"
+MyFile=url(fileLink)
+dataidx=readRDS(MyFile)
 
 @
 
@@ -57,7 +58,7 @@ Here, I continue doing this nice work, I hope you like it and read it. It has be
 % code chunk changes
 
 <<cat_table, echo=FALSE>>=
-tableONI=table(dataidx$ONI)
+tableONI=table(dataidx$ONIpolitical)
 tableONI
 @
 
@@ -93,7 +94,7 @@ Here, I continue doing this nice work, I hope you like it and read it. It has be
 
 % code chunk changes
 <<numcat_plot, echo=FALSE, fig=TRUE>>=
-boxplot(dataidx$FH~dataidx$Region)
+boxplot(dataidx$FHF~dataidx$Region)
 @
 
 Here, I continue doing this nice work, I hope you like it and read it. It has been a very hard work.Here, I continue doing this nice work, I hope you like it and read it. It has been a very hard work.Here, I continue doing this nice work, I hope you like it and read it. It has been a very hard work.Here, I continue doing this nice work, I hope you like it and read it. It has been a very hard work.Here, I continue doing this nice work, I hope you like it and read it. It has been a very hard work.Here, I continue doing this nice work, I hope you like it and read it. It has been a very hard work.Here, I continue doing this nice work, I hope you like it and read it. It has been a very hard work.Here, I continue doing this nice work, I hope you like it and read it. It has been a very hard work.Here, I continue doing this nice work, I hope you like it and read it. It has been a very hard work.
@@ -105,7 +106,7 @@ Here, I continue doing this nice work, I hope you like it and read it. It has be
 
 % code chunk changes
 <<numnum_plot, echo=FALSE, fig=TRUE>>=
-plot(dataidx$FH~dataidx$RWB)
+plot(dataidx$FHF~dataidx$RWB)
 @
 
 The scatter plot is thought to be invented by  John Frederick W. Herschel according to this link: https://qz.com/1235712/the-origins-of-the-scatter-plot-data-visualizations-greatest-invention/

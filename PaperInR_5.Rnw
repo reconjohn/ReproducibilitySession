@@ -52,9 +52,9 @@ Sections may use a label\footnote{In fact, you can have a label wherever you thi
 
 <<collecting, echo=FALSE>>=
 # collecting
-fileLink="https://github.com/eScienceWinterSchool/Reproducibility/raw/master/censoredworld.csv"
-dataidx=read.csv(fileLink)
-
+fileLink="https://github.com/eScienceUW-WinterSchool-2020/ReproducibilitySession/raw/master/data/dataidx.RDS"
+MyFile=url(fileLink)
+dataidx=readRDS(MyFile)
 @
 
 \subsection{Exploring Categorical Data}\label{catexplo}
@@ -75,7 +75,7 @@ library(stargazer)
 % USING "results=tex" 
 
 <<results=tex,echo=FALSE>>=
-tableNominal(vars = dataidx[, c(2,5)], 
+tableNominal(vars =  dataidx[, c(2,5)], 
              cap = "Freq Table", 
              vertical = FALSE, 
              lab ="catexplore_table",
@@ -89,7 +89,7 @@ tableNominal(vars = dataidx[, c(2,5)],
 You can see this variable plotted in Figure \ref{catexplore_plot}
 
 <<cat_table, echo=FALSE>>=
-tableONI=as.data.frame(table(dataidx$ONI))
+tableONI=as.data.frame(table(dataidx$ONIpolitical))
 names(tableONI)=c("var","count")
 ##
 library(ggplot2)
@@ -129,12 +129,12 @@ stargazer(dataidx[,c(3,4)],
 @
 
 
-In the Table \ref{numexplore_table}, you realize that the mean of FH is {\bf\Sexpr{mean(dataidx$FH)}}.
+In the Table \ref{numexplore_table}, you realize that the mean of FHF is {\bf\Sexpr{mean(dataidx$FHF,na.rm = T)}}.
 
 
 <<num_table, echo=FALSE>>=
 base=ggplot(data=dataidx)
-box = base + geom_boxplot(aes(y=FH,x=1)) 
+box = base + geom_boxplot(aes(y=FHF,x=1)) 
 box = box + geom_boxplot(aes(y=RWB,x=2))
 box=box + scale_x_continuous(breaks = c(1,2),
                              labels = names(dataidx[,c(3,4)]))
@@ -165,7 +165,7 @@ Here, I continue doing this nice work, I hope you like it and read it. It has be
 
 
 <<echo=FALSE>>=
-base=ggplot(dataidx,aes(y=FH,x=Region))
+base=ggplot(dataidx,aes(y=FHF,x=Region))
 box=base + geom_boxplot() 
 @
 
@@ -189,7 +189,7 @@ Here, I continue doing this nice work, I hope you like it and read it. It has be
 
 
 <<echo=FALSE>>=
-base=ggplot(data=dataidx,aes(x=FH,y=RWB))
+base=ggplot(data=dataidx,aes(x=FHF,y=RWB))
 points=base + geom_point()
 @
 
@@ -201,7 +201,7 @@ points=base + geom_point()
 points 
 @
 \end{adjustbox}
-\caption{boxplots}  
+\caption{scatter}  
 \label{numnum_plot} 
 \end{figure}
 
