@@ -43,16 +43,16 @@ knitr::include_graphics("cloneFolder.png")
 ```
 
 
-3. **Upload a file to the repo**. When you need to send a file from your computer to this cloned repo, you need to put that file in that folder. Download [this file](https://app.box.com/s/bijhsk0ci2k06tpbxm8rqjlxh3br2gsk) and put it there. This file contains information related to [censorship by country](https://en.wikipedia.org/wiki/Censorship_by_country). 
+3. **Upload a file to the repo**. When you need to send a file from your computer to this cloned repo, you need to put that file in that folder. Let's create a file for GitHub from Python, follow this steps:
 
-4. **Synchronizing**. Your GitHub Client detects aany changes in the _cloned folder_. Then, go to your client and check that these changes are recognized. You should then **commit** and **push**, following this sequence:
+* Take a look at [these data](https://en.wikipedia.org/wiki/Censorship_by_country).
+* Make a **copy** of this [Colab Notebook](https://colab.research.google.com/drive/1zbvSXuKidACMPxOUbe7HDVAWh6ickxD8).
+* Run the code there, it will save file in your repo just created.
 
-```{r repoSync, echo=FALSE, fig.cap="**SYNCHRONIZING REPO**", out.width = '100%',fig.align='center',out.extra='style="background-color: #9ecff7; padding:10px; display: inline-block;"'}
-knitr::include_graphics("syncro.png")
-```
+4. **Synchronizing**. Your GitHub Client detects any changes in your GitHub. Go to your client and check that these changes from Colab are synced by pressing **FETCH ORIGIN**.
 
 
-4. **Get the link to the data file**. The data can be accessed now (as long as you have an internet connection). Go to your repo in the cloud, and click on the file name. This will take you to the file contents. Depending on the file type you can or can not see the values. This is a **csv** file, so you will see the contents. Now, get the link to the data, by right-clicking on the option **download** or **raw** (whichever is available).
+4. **Get the link to the data file**. The data can be accessed now (as long as you have an internet connection). Go to your repo in the cloud, and click on the file name. This will take you to the file contents. Depending on the file type you can or can not see the values. This is a **RDS** file, so you will NOT see the contents. Now, get the link to the data, by right-clicking on the option **download** or **raw** (whichever is available).
 
 5. **Create the following document in R**. Go to your RStudio and create an RScript. The codes will be:
 
@@ -60,10 +60,11 @@ knitr::include_graphics("syncro.png")
 ```{r, echo=TRUE, eval=FALSE}
 # collecting
 fileLink="linkToGithub repo"
-dataidx=read.csv(fileLink)
+MyFile=url(fileLink)
+dataidx=readRDS(MyFile)
 
 # Describing a categorical variable**:
-tableONI=table(dataidx$ONI)
+tableONI=table(dataidx$ONIpolitical)
 tableONI
 
 # Using a plot for the categorical:
