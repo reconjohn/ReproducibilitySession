@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.13)  13 FEB 2020 12:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.13)  13 FEB 2020 12:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**PaperInR_4.tex
-(./PaperInR_4.tex
+**PaperInR_7.tex
+(./PaperInR_7.tex
 LaTeX2e <2020-02-02> patch level 1
 L3 programming layer <2020-02-11>
 (c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.c
@@ -26,6 +26,25 @@ File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 )
+(c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtabl
+e.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip49
+\LTright=\skip50
+\LTpre=\skip51
+\LTpost=\skip52
+\LTchunksize=\count175
+\LTcapwidth=\dimen135
+\LT@head=\box45
+\LT@firsthead=\box46
+\LT@foot=\box47
+\LT@lastfoot=\box48
+\LT@cols=\count176
+\LT@rows=\count177
+\c@LT@tables=\count178
+\c@LT@chunks=\count179
+\LT@p@ftn=\toks14
+)
 (c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/adjustbox/adju
 stbox.sty
 Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
@@ -38,12 +57,12 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 val.tex
 (c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvu
 tils.tex
-\XKV@toks=\toks14
-\XKV@tempa@toks=\toks15
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
 
 (c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/keyv
 al.tex))
-\XKV@depth=\count175
+\XKV@depth=\count180
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/adjustbox/adjc
@@ -77,40 +96,40 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 dftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen135
-\Gin@req@width=\dimen136
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
 )
 (c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/collectbox/col
 lectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box45
+\collectedbox=\box49
 )
-\tc@llx=\dimen137
-\tc@lly=\dimen138
-\tc@urx=\dimen139
-\tc@ury=\dimen140
+\tc@llx=\dimen138
+\tc@lly=\dimen139
+\tc@urx=\dimen140
+\tc@ury=\dimen141
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/adjustbox/tc-p
 dftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen141
-\adjbox@Height=\dimen142
-\adjbox@Depth=\dimen143
-\adjbox@Totalheight=\dimen144
-\adjbox@pwidth=\dimen145
-\adjbox@pheight=\dimen146
-\adjbox@pdepth=\dimen147
-\adjbox@ptotalheight=\dimen148
+\adjbox@Width=\dimen142
+\adjbox@Height=\dimen143
+\adjbox@Depth=\dimen144
+\adjbox@Totalheight=\dimen145
+\adjbox@pwidth=\dimen146
+\adjbox@pheight=\dimen147
+\adjbox@pdepth=\dimen148
+\adjbox@ptotalheight=\dimen149
 
 (c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/varwidth/varwi
 dth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box46
-\sift@deathcycles=\count176
-\@vwid@loff=\dimen149
-\@vwid@roff=\dimen150
+\@vwid@box=\box50
+\sift@deathcycles=\count181
+\@vwid@loff=\dimen150
+\@vwid@roff=\dimen151
 )) (c:/Program Files/R/R-3.6.1/share/texmf/tex/latex/Sweave.sty
 Package: Sweave 
 
@@ -121,11 +140,11 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 (c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancy
 vrb.sty
 Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count177
+\FV@CodeLineNo=\count182
 \FV@InFile=\read2
-\FV@TabBox=\box47
-\c@FancyVerbLine=\count178
-\FV@StepNumber=\count179
+\FV@TabBox=\box51
+\c@FancyVerbLine=\count183
+\FV@StepNumber=\count184
 \FV@OutFile=\write3
 )
 (c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcomp.
@@ -145,26 +164,26 @@ Package: fontenc 2020/01/25 v2.0m Standard LaTeX package
 (c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3ba
 ckend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count180
-\l__pdf_internal_box=\box48
-) (./PaperInR_4.aux)
-\openout1 = `PaperInR_4.aux'.
+\l__kernel_color_stack_int=\count185
+\l__pdf_internal_box=\box52
+) (./PaperInR_7.aux)
+\openout1 = `PaperInR_7.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Trying to load font information for T1+aer on input line 21
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Trying to load font information for T1+aer on input line 23
 .
 
 (c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ae/t1aer.fd
@@ -222,101 +241,110 @@ G,.JBIG2,.JB2,.eps]
 stopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-)) (./PaperInR_4-concordance.tex)
+)) (./PaperInR_7-concordance.tex)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 24.
+(Font)              <12> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 24.
+(Font)              <8> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 24.
+(Font)              <6> on input line 26.
 LaTeX Font Info:    Trying to load font information for T1+aett on input line 2
-4.
+6.
 
 (c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 47.
+(Font)              <10.95> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 47.
+(Font)              <9> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 47.
+(Font)              <5> on input line 48.
 
 [1
 
 {c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/p
 dftex.map}]
-<PaperInR_4-cat_plot.pdf, id=12, 433.62pt x 433.62pt>
-File: PaperInR_4-cat_plot.pdf Graphic file (type pdf)
-<use PaperInR_4-cat_plot.pdf>
-Package pdftex.def Info: PaperInR_4-cat_plot.pdf  used on input line 67.
-(pdftex.def)             Requested size: 288.0011pt x 288.01624pt.
- [2 <./PaperInR_4-cat_plot.pdf>]
-LaTeX Font Info:    Trying to load font information for TS1+aett on input line 
-91.
-
-(c:/Program Files/R/R-3.6.1/share/texmf/tex/latex/ts1aett.fd
-File: ts1aett.fd 
-)
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-91.
-
-(c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cmtt.f
-d
-File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `TS1/aett/m/n' in size <10.95> not available
-(Font)              Font shape `TS1/cmtt/m/n' tried instead on input line 91.
-<PaperInR_4-num_plot.pdf, id=25, 433.62pt x 433.62pt>
-File: PaperInR_4-num_plot.pdf Graphic file (type pdf)
-<use PaperInR_4-num_plot.pdf>
-Package pdftex.def Info: PaperInR_4-num_plot.pdf  used on input line 104.
+<PaperInR_7-cat_plot.pdf, id=12, 433.62pt x 433.62pt>
+File: PaperInR_7-cat_plot.pdf Graphic file (type pdf)
+<use PaperInR_7-cat_plot.pdf>
+Package pdftex.def Info: PaperInR_7-cat_plot.pdf  used on input line 106.
 (pdftex.def)             Requested size: 288.0011pt x 288.01624pt.
 
-Overfull \hbox (1.78989pt too wide) in paragraph at lines 111--112
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2]
+<PaperInR_7-num_plot.pdf, id=22, 433.62pt x 433.62pt>
+File: PaperInR_7-num_plot.pdf Graphic file (type pdf)
+<use PaperInR_7-num_plot.pdf>
+Package pdftex.def Info: PaperInR_7-num_plot.pdf  used on input line 143.
+(pdftex.def)             Requested size: 288.0011pt x 288.01624pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (1.78989pt too wide) in paragraph at lines 150--151
 []\T1/aer/m/n/10.95 Boxplots were in-tro-duced by Tuckey (Tukey, John W (1977).
  Ex-ploratory
  []
 
-[3 <./PaperInR_4-num_plot.pdf>]
-<PaperInR_4-numcat_plot.pdf, id=36, 433.62pt x 433.62pt>
-File: PaperInR_4-numcat_plot.pdf Graphic file (type pdf)
-<use PaperInR_4-numcat_plot.pdf>
-Package pdftex.def Info: PaperInR_4-numcat_plot.pdf  used on input line 126.
+[3 <./PaperInR_7-cat_plot.pdf>]
+<PaperInR_7-numcat_plot.pdf, id=31, 433.62pt x 433.62pt>
+File: PaperInR_7-numcat_plot.pdf Graphic file (type pdf)
+<use PaperInR_7-numcat_plot.pdf>
+Package pdftex.def Info: PaperInR_7-numcat_plot.pdf  used on input line 165.
 (pdftex.def)             Requested size: 288.0011pt x 288.01624pt.
- [4 <./PaperInR_4-numcat_plot.pdf>]
-<PaperInR_4-numnum_plot.pdf, id=45, 433.62pt x 433.62pt>
-File: PaperInR_4-numnum_plot.pdf Graphic file (type pdf)
-<use PaperInR_4-numnum_plot.pdf>
-Package pdftex.def Info: PaperInR_4-numnum_plot.pdf  used on input line 145.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <./PaperInR_7-num_plot.pdf>]
+<PaperInR_7-numnum_plot.pdf, id=40, 433.62pt x 433.62pt>
+File: PaperInR_7-numnum_plot.pdf Graphic file (type pdf)
+<use PaperInR_7-numnum_plot.pdf>
+Package pdftex.def Info: PaperInR_7-numnum_plot.pdf  used on input line 184.
 (pdftex.def)             Requested size: 288.0011pt x 288.01624pt.
- [5 <./PaperInR_4-numnum_plot.pdf>] (./PaperInR_4.aux) ) 
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./PaperInR_7-numcat_plot.pdf>] [6 <./PaperInR_7-numnum_plot.pdf>] [7
+
+]
+(./PaperInR_7.aux) ) 
 Here is how much of TeX's memory you used:
- 3206 strings out of 483161
- 52095 string characters out of 5963171
- 279784 words of memory out of 5000000
- 18125 multiletter control sequences out of 15000+600000
- 568282 words of font info for 91 fonts, out of 8000000 for 9000
+ 3291 strings out of 483161
+ 52747 string characters out of 5963171
+ 287633 words of memory out of 5000000
+ 18204 multiletter control sequences out of 15000+600000
+ 572285 words of font info for 100 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  45i,9n,40p,917b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
- <c:/Users/Yohan_Min/.T
-inyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tctt1095.600pk><c:/Users/Yohan_Min
-/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb><c
-:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb><c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/Users/Yohan_Min/AppData/Ro
-aming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/Users/Yoha
-n_Min/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
-b><c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr9.pfb><c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmti10.pfb><c:/Users/Yohan_Min/AppData/Roaming/TinyTeX
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/Users/Yohan_Min/AppDa
-ta/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on PaperInR_4.pdf (5 pages, 145977 bytes).
+<c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/font
+s/type1/public/amsfonts/cm/cmb10.pfb><c:/Users/Yohan_Min/AppData/Roaming/TinyTe
+X/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/Users/Yohan_Min/AppD
+ata/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Us
+ers/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb><c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Users/Yohan_Min/AppData/Roami
+ng/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/Users/Yohan_
+Min/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+<c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb><c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr9.pfb><c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsltt10.pfb><c:/Users/Yohan_Min/AppData
+/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users
+/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb><c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb><c:/Users/Yohan_Min/AppData/Roaming/TinyTeX/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on PaperInR_7.pdf (7 pages, 193917 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
